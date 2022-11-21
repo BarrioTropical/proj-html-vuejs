@@ -1,7 +1,7 @@
 <template>
-    <div>
-        Sono Footer
-    </div>
+    <!-- top footer section -->
+    <!-- sub footer section -->
+    <!-- copyright section -->
 </template>
 
 <script>
