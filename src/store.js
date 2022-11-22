@@ -8,4 +8,11 @@ export const store = reactive({
         'Contact',
         'Shop by brand',
     ],
+    footerMenu: [
+        'Home',
+        'About',
+        'Blog',
+        'Contact',
+        'Shop',
+    ],
 });

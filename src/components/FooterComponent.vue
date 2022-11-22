@@ -11,7 +11,7 @@
 
 <script>
 import TopFooter from './Footer Components/TopFooter.vue';
-import SubFooter from './Footer Components/Subfooter.vue';
+import SubFooter from './Footer Components/SubFooter.vue';
 
     export default {
     name: "FooterComponent",
