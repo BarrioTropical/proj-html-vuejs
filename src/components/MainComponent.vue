@@ -169,8 +169,8 @@
 </template>
 
 <script>
-import DiscountComponent from './DiscountComponent.vue';
-import JumboComponent from './JumboComponent.vue';
+import DiscountComponent from './Main Components/DiscountComponent.vue';
+import JumboComponent from './Main Components/JumboComponent.vue';
 
     export default {
     name: "MainComponent",

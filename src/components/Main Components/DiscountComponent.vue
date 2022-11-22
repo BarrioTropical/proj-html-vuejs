@@ -17,8 +17,8 @@
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/styles/variables';
-@import '../assets/styles/generals.scss';
+@import '../../assets/styles/variables';
+@import '../../assets/styles/generals.scss';
 .row{
     text-align: center;
     align-items: center;

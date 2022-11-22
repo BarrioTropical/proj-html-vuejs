@@ -18,8 +18,8 @@
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/styles/variables';
-@import '../assets/styles/generals.scss';
+@import '../../assets/styles/variables';
+@import '../../assets/styles/generals.scss';
 
 .mybg{
     background: url(/public/img/banner-5-2x-scaled.jpg);
