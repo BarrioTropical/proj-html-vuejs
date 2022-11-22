@@ -2,7 +2,7 @@
     <div class="text-center navbar subfooter">
         <ul class=" text-decoration-none text-white">
         <li v-for="(item, index) in store.footerMenu" :key="index">
-        <a href="#">{{ item }}</a>
+        <a href="#" class="text-white">{{ item }}</a>
         </li>
         </ul>
     </div>

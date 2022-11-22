@@ -1,4 +1,18 @@
 <template>
+    <!-- fixed section -->
+    <div class="sticky-box">
+    <section class="prebuilts">
+        <i class="fa-brands fa-wordpress"></i>
+        <p><strong>Prebuilts</strong></p>
+    </section>
+
+    <section class="price">
+      <p class="greenSale">$ 45</p>
+      <p><strong>Sale</strong></p>
+    </section>
+  </div>
+
+
     <!-- jumbo section -->
     <JumboComponent/>
     <DiscountComponent/>
@@ -71,6 +85,49 @@ import NewArrival from './Main Components/NewArrivalComponent.vue';
 <style lang="scss" scoped>
 @import '../assets/styles/variables';
 @import '../assets/styles/generals.scss';
+
+.sticky-box {
+  position: fixed;
+  top: 300px;
+  right: 10px;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.prebuilts {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.price {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background-color: white;
+}
+
+.greenSale {
+  color: #5BB164;
+  font-weight: 700;
+}
+
 
 
 </style>
