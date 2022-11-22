@@ -16,6 +16,35 @@
     </div>
     </div>
     <!-- food section -->
+    <div class="row  text-center pt-5">
+        <div class="col-sm-6 col-lg-4  p-3">
+        <div class="mybg-green p-4">
+        <h2>Kibble</h2>
+        <h4>Dry dog food</h4>
+        <img src="/public/img/food-transparent-18.png" class="imgFood" alt="">
+        <a class="btn btn-lg buttonFood" href="#" role="button">Shop dry food</a>
+        </div>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <div class="mybg-green p-4">
+        <h2>Moist</h2>
+        <h4>Canned dog food</h4>
+        <img src="/public/img/food-transparent-17.png" class="imgFood" alt="">
+        <a class="btn btn-lg buttonFood" href="#" role="button">Shop moist food</a>
+        </div>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <div class="mybg-green p-4">
+        <h2>Frozen</h2>
+        <h4>Freeze-Dried dog food</h4>
+        <img src="/public/img/food-transparent-16.png" class="imgFood" alt="">
+        <a class="btn btn-lg buttonFood" href="#" role="button">Shop frozen food</a>
+        </div>
+        </div>
+    </div>
+
+
+
     <!-- banner section -->
     <!-- best sellers section -->
     <!-- testimonial section -->
@@ -43,6 +72,20 @@ import JumboComponent from './JumboComponent.vue';
 .my-padding{
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+h4{
+    color: $lightgreen;
+}
+
+.imgFood{
+    max-width: 300px;
+}
+
+.buttonFood{
+    background-color: $lightgreen;
+    color:$white;
+    border-radius: 30px;
 }
 
 </style>
