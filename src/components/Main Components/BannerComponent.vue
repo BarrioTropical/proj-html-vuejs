@@ -23,7 +23,7 @@
 @import '../../assets/styles/generals.scss';
 
 .banner-new{
-  background-image: url(/public/img/banner-3-2x-scaled.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/public/img/banner-3-2x-scaled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

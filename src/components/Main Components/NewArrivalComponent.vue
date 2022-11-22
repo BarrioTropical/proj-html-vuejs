@@ -1,10 +1,10 @@
 <template>
-    <div class="text-center">
-    <div class="container text-center my-padding">
+    <div class="text-center paddingArrival">
+    <div class="container text-center ">
     <h2>New products arrival</h2>
     <p>Latest products</p>
     </div>
-    <div class="row justify-content-between text-center container">
+    <div class="row justify-content-between text-center container ">
         <div class="col-sm-6 col-lg-4"><img src="/public/img/product-8.jpg" alt=""><p>Bed (1)</p></div>
         <div class="col-sm-6 col-lg-4"><img src="/public/img/product-2.jpg" alt=""><p>Food (6)</p></div>
         <div class="col-sm-6 col-lg-4"><img src="/public/img/product-3.jpg" alt=""><p>Toys (6)</p></div>
@@ -24,4 +24,10 @@
 <style lang="scss" scoped>
 @import '../../assets/styles/variables';
 @import '../../assets/styles/generals.scss';
+
+.paddingArrival{
+    padding: 100px 0px;
+
+}
+
 </style>

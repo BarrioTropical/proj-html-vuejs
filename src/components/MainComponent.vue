@@ -28,10 +28,10 @@
     <FindSectionComponent/>
     
     <!-- value section -->
-    <ValueHeader/>
+    <ValueComponent/>
     
     <!-- new arrival section -->
-    <NewArrivalComponent/>
+    <NewArrival/>
 </template>
 
 <script>
@@ -45,24 +45,26 @@ import TestimonialComponent from './Main Components/TestimonialComponent.vue';
 import Newsletter from './Main Components/NewsletterComponent.vue';
 import BlogComponent from './Main Components/BlogComponent.vue';
 import FindSectionComponent from './Main Components/FindSectionComponent.vue';
-import ValueHeader from './Header Components/ValueHeader.vue';
+import ValueComponent from './Main Components/ValueComponent.vue';
+import NewArrival from './Main Components/NewArrivalComponent.vue';
 
 
     export default {
     name: "MainComponent",
-    components: { 
-      JumboComponent, 
-      DiscountComponent, 
-      CategoryComponent, 
-      FoodComponent, 
-      BannerComponent, 
-      BestSellerComponent, 
-      TestimonialComponent, 
-      Newsletter, 
-      BlogComponent, 
-      FindSectionComponent, 
-      ValueHeader, 
-    }
+    components: {
+    JumboComponent,
+    DiscountComponent,
+    CategoryComponent,
+    FoodComponent,
+    BannerComponent,
+    BestSellerComponent,
+    TestimonialComponent,
+    Newsletter,
+    BlogComponent,
+    FindSectionComponent,
+    ValueComponent,
+    NewArrival
+}
 }
 </script>
 
@@ -70,43 +72,5 @@ import ValueHeader from './Header Components/ValueHeader.vue';
 @import '../assets/styles/variables';
 @import '../assets/styles/generals.scss';
 
-.find-1{
-  background-image: url(/public/img/banner-8-2x.jpg);
-  height: 400px;
-  background-size: cover;
-  vertical-align: middle;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-}
-
-
-
-
-
-.mybg{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/public/img/banner-3-2x-scaled.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
-    padding: 60px;
-}
-
-.text-green{
-  color: $darkgreen;
-}
-
-.mypadding-r{
-  margin-top: -30px;
-}
-
-.mask{
-background-color: rgba(0, 0, 0, 0.6);
-}
-
-.mybutton{
-  background-color: $white;
-  border-radius: 30px;
-}
 
 </style>
