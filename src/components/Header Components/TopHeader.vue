@@ -30,7 +30,7 @@
 
 .form .fa-search{
 position: absolute;
-top: 20px;
+top: 10px;
 left: 20px;
 color: #9ca3af;
 }

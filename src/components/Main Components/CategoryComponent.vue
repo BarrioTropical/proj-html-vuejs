@@ -22,4 +22,9 @@
 <style lang="scss" scoped>
 @import '../../assets/styles/variables';
 @import '../../assets/styles/generals.scss';
+
+.my-padding{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 </style>

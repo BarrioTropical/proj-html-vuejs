@@ -81,19 +81,11 @@ import ValueHeader from './Header Components/ValueHeader.vue';
 }
 
 
-.my-padding{
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
 
-.banner-new{
-  background-image: url(/public/img/banner-3-2x-scaled.jpg);
-  height: 400px;
-  background-size: cover;
-  vertical-align: middle;
-}
+
+
 .mybg{
-    background: url(/public/img/banner-7-2x-scaled.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/public/img/banner-3-2x-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 60vh;
@@ -110,20 +102,6 @@ import ValueHeader from './Header Components/ValueHeader.vue';
 
 .mask{
 background-color: rgba(0, 0, 0, 0.6);
-}
-
-h4{
-    color: $lightgreen;
-}
-
-.imgFood{
-    max-width: 300px;
-}
-
-.buttonFood{
-    background-color: $lightgreen;
-    color:$white;
-    border-radius: 30px;
 }
 
 .mybutton{
