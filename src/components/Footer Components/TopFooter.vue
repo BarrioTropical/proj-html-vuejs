@@ -126,8 +126,9 @@ ul{
 }
 
 .bg-footer{
+    background: url('/public/img/bg-transparent-3.png') ;
+    background-repeat: repeat;
     background-color: #273F29;
     padding: 30px 10px;
 }
-
 </style>

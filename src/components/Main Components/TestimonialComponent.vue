@@ -1,5 +1,5 @@
 <template>
-    <div class="mybg-green p-5">
+    <div class="bg-discount p-5">
     <div class="container text-center my-padding text-center">
     <h2>Users testimonials</h2>
     <div class="row justify-content-between text-center container pt-5 pb-5">
@@ -37,6 +37,13 @@ img{
 
 p{
     line-height: 1.5rem;
+}
+
+.bg-discount{
+    background: url('/public/img/bg-transparent-3.png');
+    background-color: rgba(30,49,32,1);
+    background-repeat: repeat;
+    color: white;
 }
 
 </style>
