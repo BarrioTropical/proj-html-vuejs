@@ -43,4 +43,17 @@ h5{
     text-align: left;
 }
 
+.buttonFood{
+    background-color: $lightgreen;
+    color: $white;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  &:hover{
+    background-color: $darkgreen;
+    color: $white;
+  }
+}
+
 </style>

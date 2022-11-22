@@ -44,4 +44,15 @@
     }
 
 }
+
+
+.mybutton{
+  background-color: $white;
+  border-radius: 30px;
+
+  &:hover{
+    background-color: $lightgreen;
+    color: $white;
+  }
+}
 </style>

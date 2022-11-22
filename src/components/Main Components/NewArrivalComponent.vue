@@ -5,19 +5,25 @@
     <p>Latest products</p>
     </div>
     <div class="row justify-content-between text-center container ">
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-8.jpg" alt=""><p>Bed (1)</p></div>
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-2.jpg" alt=""><p>Food (6)</p></div>
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-3.jpg" alt=""><p>Toys (6)</p></div>
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-4.jpg" alt=""><p>Transport (6)</p></div>
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-5.jpg" alt=""><p>Transport (6)</p></div>
-        <div class="col-sm-6 col-lg-4"><img src="/public/img/product-10.jpg" alt=""><p>Transport (6)</p></div>
+        <div class="col-sm-6 col-lg-4" v-for="(item, index) in store.newArrival">
+        <img :src="item.image" alt="" >
+        <p class="italic">{{item.title}}</p>
+        <p class="price"><span>{{item.discount}}</span>{{item.price}}</p>
+        </div>
     </div>
     </div>
 </template>
 
 <script>
+import { store } from "../../store";
+
     export default {
         name: 'NewArrival',
+        data(){
+            return{
+                store,
+            };
+        },
     }
 </script>
 
@@ -27,7 +33,21 @@
 
 .paddingArrival{
     padding: 100px 0px;
+}
 
+.italic{
+    font-style: italic;
+    font-weight: 500;
+}
+.price{
+    color: $lightgreen;
+    font-size: 20px;
+
+    span{
+        color: $black;
+        text-decoration:line-through;
+        font-size: 16px;
+    }
 }
 
 </style>

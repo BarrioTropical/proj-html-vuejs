@@ -105,6 +105,12 @@ ul{
     a{
         color: white;
         text-decoration: none;
+
+        & :hover{
+            color: white;
+            opacity:1;
+            transition: all 0s linear 0s;
+        }
     }
 }
 

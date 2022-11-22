@@ -8,16 +8,24 @@
     </div>
 
     <div class="row justify-content-between text-center container pb-5">
-        <div class="col-sm-6 col-lg-3"><img src="/public/img/product-21.jpg" alt=""><p>Transport cage</p><p>$25.00</p></div>
-        <div class="col-sm-6 col-lg-3"><img src="/public/img/product-20.jpg" alt=""><p>Dog leash</p><p>$25.00</p></div>
-        <div class="col-sm-6 col-lg-3"><img src="/public/img/product-16.jpg" alt=""><p>Animal transport cage</p><p>$25.00</p></div>
-        <div class="col-sm-6 col-lg-3"><img src="/public/img/product-11.jpg" alt=""><p>Colorful cat leash</p><p>$12.00</p></div>
+        <div class="col-sm-6 col-lg-3" v-for="(item, index) in store.favouriteProduct">
+        <img :src="item.image" alt="">
+        <p>{{item.title}}</p>
+        <p>{{item.price}}</p>
+        </div>
     </div>
 </template>
 
 <script>
+import { store } from "../../store";
+
     export default {
         name: 'BestSellerComponent',
+        data(){
+            return{
+                store,
+            };
+        },
     }
 </script>
 

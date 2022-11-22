@@ -43,6 +43,10 @@ li {
 
     a, i{
         text-decoration: none;
+        & :hover{
+            opacity:1;
+            transition: all 0s linear 0s;
+        }
     }
 
 }
