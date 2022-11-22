@@ -1,6 +1,6 @@
 <template>
-    <div>
-
+    <div class=" text-center">
+        Menu section and social
     </div>
 </template>
 
