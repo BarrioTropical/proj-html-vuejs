@@ -1,5 +1,6 @@
 <template>
     <!-- jumbo section -->
+    <JumboComponent/>
     <!-- product's category section -->
     <!-- food section -->
     <!-- banner section -->
@@ -13,9 +14,12 @@
 </template>
 
 <script>
+import JumboComponent from './JumboComponent.vue';
+
     export default {
-        name: 'MainComponent'
-    }
+    name: "MainComponent",
+    components: { JumboComponent }
+}
 </script>
 
 <style lang="scss" scoped>
