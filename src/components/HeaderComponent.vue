@@ -1,7 +1,7 @@
 <template>
-    <div class="container pt-3 pb-3">
+    <div class="pt-3">
        <!-- Top Header -->
-    <div class="row justify-content-between">
+    <div class="row justify-content-between box">
         <div class="col-sm-6 col-lg-3"><img src="/public/img/dark-pet-logo.png" alt=""></div>
         <div class="col-sm-6 col-lg-3">
             <div class="form">
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="col-sm-6 col-lg-3"><strong>Questions?</strong> Call us: 1.800.123.4567</div>
-        <div class="col-sm-6 col-lg-3">user section</div>
+        <div class="col-sm-6 col-lg-3"><i class="fa fa-bag-shopping"></i> <i class="fa fa-user"></i></div>
     </div>
        <!-- Sub Header -->
     <div class="text-center">
@@ -18,10 +18,15 @@
     </div>
 
     <!-- values section -->
-    <div class="row justify-content-between text-center">
-        <div class="col-sm-6 col-lg-3"><span>International Shipping Services</span></div>
-        <div class="col-sm-6 col-lg-3"><span>International Shipping Services</span></div>
-        <div class="col-sm-6 col-lg-3"><span>International Shipping Services</span></div>
+    <div class="mybg-green">
+    <div class="row justify-content-between text-center p-3 align-content-center">
+        <div class="col-sm-6 col-lg-4"><p><i class="fa-regular fa-map"></i>
+        <strong> International</strong> Shipping Services</p></div>
+        <div class="col-sm-6 col-lg-4"><span><i class="fa-regular fa-clock"></i>
+        See our <strong>store hours</strong> and services</span></div>
+        <div class="col-sm-6 col-lg-4"><span><i class="fa-regular fa-check"></i>
+        We price match to give you the <strong> best deals</strong></span></div>
+    </div>
     </div>
 
     </div>
@@ -34,7 +39,9 @@
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/generals.scss";
+@import '../assets/styles/variables';
+@import '../assets/styles/generals.scss';
+
 img{
     max-width: 250px;
 }

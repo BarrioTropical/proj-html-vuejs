@@ -1,9 +1,19 @@
 <template>
     <!-- top footer section -->
-    <div class="row mybg-green pt-5 pb-5">
-        <div class="col-sm-6 col-lg-3"><img src="/public/img/mobile-light-pet-logo-2x.png" alt=""></div>
+    <div class="row mybg-green pt-5 pb-5 text-center">
         <div class="col-sm-6 col-lg-3">
-            <h3>Shop by brand</h3>
+        <div>
+        <img src="/public/img/mobile-light-pet-logo-2x.png" alt="">
+        </div>
+        <div>
+        <p class="pt-4">1234 Avada Avenue Avadaville<br/>
+            info@your-company.com<br/>
+            Call us: (1) 234 5678
+        </p>
+        </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+            <h2>Shop by brand</h2>
             <ul>
             <li v-for="(menuShop, index) in menuShop" :key="index">
             <a :href="menuShop.url">{{ menuShop.text }}</a>
@@ -11,7 +21,7 @@
             </ul>
         </div>
         <div class="col-sm-6 col-lg-3">
-            <h3>Useful links</h3>
+            <h2>Useful links</h2>
             <ul>
             <li v-for="(menuLinks, index) in menuLinks" :key="index">
             <a :href="menuLinks.url">{{ menuLinks.text }}</a>
@@ -86,7 +96,8 @@
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/generals.scss";
+@import '../assets/styles/variables';
+@import '../assets/styles/generals.scss';
 img{
     max-width: 250px;
 }
@@ -97,6 +108,11 @@ img{
 
 ul{
     text-decoration: none;
+    list-style: none;
+
+    li{
+        padding: 5px 0px;
+    }
 
     a{
         color: white;
