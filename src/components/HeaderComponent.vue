@@ -13,8 +13,12 @@
         <div class="col-sm-6 col-lg-3"><i class="fa fa-bag-shopping"></i> <i class="fa fa-user"></i></div>
     </div>
        <!-- Sub Header -->
-    <div class="text-center">
-        Menu section
+    <div class="text-center row d-flex">
+        <ul class=" text-decoration-none">
+      <li v-for="(item, index) in store.headerMenu" :key="index">
+        <a href="#">{{ item }}</a>
+      </li>
+    </ul>
     </div>
 
     <!-- values section -->
@@ -33,8 +37,15 @@
 </template>
 
 <script>
+import { store } from ".././store";
+
     export default {
-        name: 'HeaderComponent'
+        name: 'HeaderComponent',
+        data() {
+    return {
+      store,
+    };
+  },
     }
 </script>
 
@@ -86,5 +97,9 @@ color: #9ca3af;
 
 .mybg-green{
     background-color: #1E3120;
+}
+
+li{
+    text-decoration: none;
 }
 </style>
