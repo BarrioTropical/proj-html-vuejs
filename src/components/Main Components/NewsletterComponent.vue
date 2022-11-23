@@ -53,7 +53,7 @@
   color: $white;
 
   &:hover{
-    background-color: #2B4F2F;
+    background-color: $darkgreen;
     color: $white;
   }
 }

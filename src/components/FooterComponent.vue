@@ -27,7 +27,7 @@ img{
 }
 
 .mybg-green{
-    background-color: #1E3120;
+    background-color: $darkgreen;
 }
 
 ul{

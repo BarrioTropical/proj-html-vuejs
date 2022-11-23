@@ -25,7 +25,7 @@ import ValueHeader from './Header Components/ValueHeader.vue';
 @import '../assets/styles/generals.scss';
 
 .mybg-green{
-    background-color: #1E3120;
+    background-color: $darkgreen;
 }
 
 li{

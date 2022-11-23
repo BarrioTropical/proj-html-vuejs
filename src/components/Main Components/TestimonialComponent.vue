@@ -41,7 +41,7 @@ p{
 
 .bg-discount{
     background: url('/public/img/bg-transparent-3.png');
-    background-color: rgba(30,49,32,1);
+    background-color: rgba(17,75,95,1);
     background-repeat: repeat;
     color: white;
 }

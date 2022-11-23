@@ -32,7 +32,7 @@ import { store } from "../../store";
 @import '../../assets/styles/generals.scss';
 
 .subfooter{
-    background-color: #1E3120;
+    background-color: $darkgreen;
     color: white;
 }
 
